@@ -12,12 +12,10 @@
 
 /* FONDO */
 body{
-   background: url('../img/imgfondo.jpg');
+   background: url('../img/fondoparque.jpg');
    background-repeat: no-repeat;
-   background-position-x: -180px;
-   background-position-y: 93px;
-   background-size: 60rem;
-  
+   background-position-x: center;
+   background-position-y: 100px;
 }
 
 
@@ -30,7 +28,7 @@ header{
     margin-top: 0px;
     padding: 0px;
     border-bottom: 1px solid gray;
-    position: fixed;
+    position: none;
     
 }
 
@@ -87,7 +85,7 @@ header{
 #presentation{
     display: block;
     width: 700px;
-    float: right;
+    float: inline-end;
     border: 1px solid black;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 2px 2px 2px 2px ;
@@ -97,7 +95,7 @@ header{
 }
 
 #presentation h3{
-    background-color: #3f7b54;
+    background-color: transparent;
     text-align: center;
     color: white;
 
@@ -120,7 +118,7 @@ header{
 }
 
 #hobbies h3{
-    background-color: #3f7b54;
+    background-color: black;
     text-align: center;
     color: white;
 }
@@ -142,7 +140,7 @@ header{
 }
 
 #recursos h3{
-    background-color: #3f7b54;
+    background-color: black;
     text-align: center;
     color: white;
 

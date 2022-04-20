@@ -13,11 +13,11 @@
 /* FONDO */
 body{
    background: url('../img/imgfondo.jpg');
-   background-position: center;
-   background-position-x: -250px;
-   background-position-y: 45px;
-   
-
+   background-repeat: no-repeat;
+   background-position-x: -180px;
+   background-position-y: 108px;
+   background-size: 60rem;
+  
 }
 
 
@@ -70,4 +70,36 @@ header{
 #menu ul li a:hover{
     color: black;
     transform: scale(1.2, 1.2);
+}
+
+/* ARTÍCULOS */
+
+.articles{
+    line-height: 30px;
+    width: 98%;
+    height: 1200px;
+    margin: 20px 0px 0px 20px;
+}
+
+#presentation{
+    display: block;
+    width: 700px;
+    float: right;
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 2px 2px ;
+    margin: 60px 0px 0px 20px;
+    margin-right: 30px;
+    overflow: auto;
+}
+
+#presentation h3{
+    background-color: #3f7b54;
+    text-align: center;
+    color: white;
+
+}
+
+#presentation h3, p{
+    padding: 10px;
 }

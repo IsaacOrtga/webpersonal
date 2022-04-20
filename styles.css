@@ -1,10 +1,48 @@
-body{
-    background: url(../img/pattern.png);
-}
-
 
 #titulo{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(15, 21, 21);
     text-shadow: 2px 2px 1px solid black;
+}
+
+/* FONDO */
+body{
+   
+
+}
+
+
+/* BARRA MENÚ */
+.inicio{
+
+    background-color: rgb(60, 155, 110);
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#titulo{
+    height: 5px;
+    color: black;
+    font-size: 20px;
+    padding: 0px;
+    float: left;
+    margin-left: 50px;
+    text-shadow: 2px 2px 1px #ccc; 3px 4px 2px #ccc;
+}
+
+#menu{
+    
+    width: 15px;
+    height: auto;
+    padding: 0px auto;
+    
+}
+
+nav{
+    display: block;
+    width: 5px;
+    height: auto;
+    text-decoration: none;
+    text-align: center;
+    
 }

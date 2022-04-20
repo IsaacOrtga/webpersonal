@@ -1,0 +1,10 @@
+body{
+    background: url(../img/pattern.png);
+}
+
+
+#titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(15, 21, 21);
+    text-shadow: 2px 2px 1px solid black;
+}

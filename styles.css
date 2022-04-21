@@ -1,26 +1,43 @@
-*{
+/* FUENTES */
+
+@font-face {
+    font-family: "WebSymbolsRegular";
+    src: url('../fonts/websymbols-regular-webfont.eot');
+    src: url('../fonts/websymbols-regular-webfont.eot?#iefix') format('embedded'),
+        url('../fonts/websymbols-regular-webfont.woff') format('woff'),
+        url('../fonts/websymbols-regular-webfont.ttf') format('truetype'),
+        url('../fonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* ESTILOS GENERALES */
+* {
     margin: 0px;
     padding: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
+
 }
 
-#titulo{
+
+
+#titulo {
     color: rgb(15, 21, 21);
     text-shadow: 2px 2px 1px solid black;
 }
 
 /* FONDO */
-body{
-   background: url('../img/fondoparque.jpg');
-   background-repeat: no-repeat;
-   background-position-x: center;
-   background-position-y: 100px;
+body {
+    background: url('../img/fondoparque.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 100px;
 }
 
 
 /* INICIO */
-header{
+header {
     min-width: 1024px;
     width: 100%;
     height: 75px;
@@ -30,10 +47,10 @@ header{
     border-bottom: 1px solid gray;
     top: 0px;
     position: fixed;
-    
+
 }
 
-#titulo{
+#titulo {
     height: 5px;
     font-size: 20px;
     padding: 0px;
@@ -42,21 +59,22 @@ header{
     margin-top: 20px;
 }
 
-#titulo a{
+#titulo a {
     text-decoration: none;
     color: black;
 }
 
-#titulo a:hover{
+#titulo a:hover {
     text-shadow: 2px 2px 2px #ccc;
 }
-#menu{
+
+#menu {
     float: right;
     margin-right: 10%;
     height: 70%;
 }
 
-#menu ul li{
+#menu ul li {
     font-size: 22px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: inline-block;
@@ -64,22 +82,22 @@ header{
 
 }
 
-#menu ul li a{
+#menu ul li a {
     display: block;
     text-decoration: none;
     color: black;
     transition: all 300ms;
-    
+
 }
 
-#menu ul li a:hover{
+#menu ul li a:hover {
     color: black;
     transform: scale(1.2, 1.2);
 }
 
 /* ARTÍCULOS */
 
-.articles{
+.articles {
     line-height: 30px;
     width: 98%;
     height: 1200px;
@@ -88,70 +106,125 @@ header{
     text-justify: inter-word;
 }
 
-#presentation{
+
+
+#presentation {
     display: block;
     float: inline-end;
     border: 1px solid black;
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 2px 2px 2px 2px ;
+    box-shadow: 2px 2px 2px 2px;
     margin: 985px 0px 0px 20px;
     margin-right: 30px;
     overflow: auto;
 }
 
-#presentation h3{
+#presentation h3 {
     background-color: #554e4e;
     text-align: center;
-    color: white;
-
 }
 
-#presentation h3, p{
+#presentation a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#presentation h3,
+p {
     padding: 30px;
 }
 
 
-#hobbies{
+#hobbies {
     display: block;
     float: inline-end;
     border: 1px solid black;
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 2px 2px 2px 2px ;
+    box-shadow: 2px 2px 2px 2px;
     margin: 45px 700px 0px 20px;
     margin-left: 20px;
     overflow: auto;
 }
 
-#hobbies h3{
+#hobbies h3 {
     background-color: #554e4e;
     text-align: center;
-    color: white;
 
 }
 
-hobbies p{
+#hobbies h3 a {
+    text-decoration: none;
+    color: white;
+}
+
+hobbies p {
     padding: 30px;
 }
 
 
-#proyectos{
+#proyectos {
     display: block;
     float: right;
     border: 1px solid black;
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 2px 2px 2px 2px ;
+    box-shadow: 2px 2px 2px 2px;
     margin: -270px 0px 0px 651px;
     margin-right: 30px;
     overflow: auto;
 }
 
-#proyectos h3{
+#proyectos h3 {
     background-color: #554e4e;
     text-align: center;
     color: white;
 
 }
 
-#proyectos h3 p{
+#proyectos h3 p {
     padding: 30px;
+}
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    height: 100px;
+    margin: 700px 0px 0px 0px;
+    border: 1px solid black;
+    margin-bottom: 0px;
+}
+
+#redes-sociales {
+    font-size: 40px;
+    display: inline-block;
+    margin: 10px 0px 0px 1000px;
+    letter-spacing: 20px;
+}
+
+
+
+#redes-sociales #youtube {
+    text-decoration: none;
+    font-family: "WebSymbolsRegular";
+    color: black;
+
+}
+
+#redes-sociales #facebook {
+    text-decoration: none;
+    font-family: "WebSymbolsRegular";
+    color: black;
+}
+
+#redes-sociales #correo {
+    text-decoration: none;
+    font-family: "WebSymbolsRegular";
+    color: black;
+}
+
+#contacto{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
 }
